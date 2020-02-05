@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if [ $1 = "init" ]; then
 
     if [ -f "/tmp/minitwit.db" ]; then 
@@ -22,5 +24,3 @@ elif [ $1 = "flag" ]; then
 else
   echo "I do not know this command..."
 fi
-
-
